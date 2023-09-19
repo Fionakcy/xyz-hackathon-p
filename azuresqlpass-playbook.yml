@@ -1,10 +1,9 @@
-  
 - hosts: localhost                                  
   tasks:   
     - azure_rm_resourcegroup:                       
         location: "{{location}}"                    
         name: "{{resourcegroup}}"                   
-        name: "Create Azure resource"               
+        name: "Create Azure resource group"               
            
     - azure_rm_sqlserver:                           
         admin_password: "{{password}}"              
