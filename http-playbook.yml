@@ -12,8 +12,8 @@
         enabled: true
     - name: Index.html delivered
       ansible.builtin.copy:
-        src: index.html
         dest: /var/www/html/index.html
+        content: Hello World
     - name: Open firewall
       ansible.posix.firewalld:
         service: http
