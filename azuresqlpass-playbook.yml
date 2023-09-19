@@ -10,7 +10,7 @@
         admin_password: "{{password}}"              
         admin_username: "{{admin}}"                 
         name: "{{sqlserver}}"                       
-        resource_group: ""resourcegroup}}"          
+        resource_group: "{{resourcegroup}}"          
         version: "12.0"                             
         name: "Create Azure SQL Server Logical host"
   vars:    
