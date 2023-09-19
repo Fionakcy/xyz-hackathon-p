@@ -14,7 +14,7 @@
         name: "Create Azure SQL Server Logical host"
   vars:    
     admin: gissqladmin
-    location: east asia
+    location: eastasia
     password: "Abcdefg@1234567"
     resourcegroup: hackathon-mssql-demo-rg
     sqlserver: ansiblesqlhost
